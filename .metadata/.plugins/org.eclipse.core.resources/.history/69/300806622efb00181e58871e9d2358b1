@@ -1,0 +1,18 @@
+package com.tesla.stock.dbservice.model;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="quotes", catalog="stockprices")
+public class Quote {
+
+	@Id
+	@GeneratedValue(strategy=)
+	@Column(name="id")
+	private Integer Id;
+	
+	private String userName;
+	
+	private Integer quote;
+	
+}

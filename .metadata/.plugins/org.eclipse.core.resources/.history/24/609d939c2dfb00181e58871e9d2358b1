@@ -1,0 +1,7 @@
+package com.tesla.stock.dbservice.model;
+
+@Entity
+@Table(name="quotes")
+public class Quote {
+
+}

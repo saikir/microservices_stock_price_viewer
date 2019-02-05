@@ -1,0 +1,5 @@
+package com.tesla.stock.dbservice.repository;
+
+public class QuotesRepository {
+
+}

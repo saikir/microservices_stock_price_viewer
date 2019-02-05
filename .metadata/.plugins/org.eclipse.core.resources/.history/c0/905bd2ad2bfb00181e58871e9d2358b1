@@ -1,0 +1,5 @@
+package com.tesla.stock.dbservice.resource;
+
+public class DbServiceResource {
+
+}

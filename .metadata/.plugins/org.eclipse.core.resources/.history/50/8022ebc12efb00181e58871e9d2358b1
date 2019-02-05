@@ -1,0 +1,10 @@
+package com.tesla.stock.dbservice.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tesla.stock.dbservice.model.Quote;
+
+public interface QuotesRepository extends JpaRepository<Quote, Integer>{
+
+	void findByUserName();
+}

@@ -1,0 +1,5 @@
+package com.tesla.stock.stockservice.config;
+
+public class Config {
+
+}

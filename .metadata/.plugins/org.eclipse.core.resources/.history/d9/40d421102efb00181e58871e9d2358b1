@@ -1,0 +1,10 @@
+package com.tesla.stock.dbservice.model;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="quotes", catalog="stockprices")
+public class Quote {
+
+}

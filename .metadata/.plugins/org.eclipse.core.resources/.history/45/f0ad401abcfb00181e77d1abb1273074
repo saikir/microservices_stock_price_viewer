@@ -1,0 +1,7 @@
+package com.tesla.stock.stockservice.resource;
+
+@RestController
+@RequestMapping("/rest/stock")
+public class StockResource {
+
+}

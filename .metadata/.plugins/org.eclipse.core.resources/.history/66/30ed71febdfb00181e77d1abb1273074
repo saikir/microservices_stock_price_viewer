@@ -1,0 +1,30 @@
+package com.tesla.stock.stockservice.resource;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+@RestController
+@RequestMapping("/rest/stock")
+public class StockResource {
+
+	@Autowired
+	RestTemplate restTemplate;
+	
+	public StockResource(RestTemplate restTemplate) {
+		this.restTemplate = restTemplate;
+	}
+
+
+
+	@GetMapping(value = "/{username}")
+	public List<String> getStock(@PathVariable("username")
+									final String username) {
+		return null;
+	}
+}

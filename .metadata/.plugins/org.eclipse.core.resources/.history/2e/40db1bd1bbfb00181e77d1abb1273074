@@ -1,0 +1,5 @@
+package com.tesla.stock.stockservice.resource;
+
+public class StockResource {
+
+}

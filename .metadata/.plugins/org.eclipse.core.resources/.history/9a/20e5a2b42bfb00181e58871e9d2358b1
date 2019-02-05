@@ -1,0 +1,6 @@
+package com.tesla.stock.dbservice.resource;
+
+@RestController
+public class DbServiceResource {
+
+}

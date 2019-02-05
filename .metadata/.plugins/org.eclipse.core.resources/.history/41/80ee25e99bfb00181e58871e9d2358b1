@@ -1,0 +1,5 @@
+package com.tesla.stock.dbservice.model;
+
+public class Quotes {
+
+}
